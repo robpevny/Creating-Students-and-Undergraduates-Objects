@@ -26,7 +26,7 @@ interface ILundergrad {
     GPA?: number;
 }
 
-class underGraduates extends students implements ILundergrad {
+class underGraduates extends Students implements ILundergrad {
     batch: number;
     GPA?: number;
 
